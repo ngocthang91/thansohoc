@@ -1,5 +1,4 @@
 
-import numpy as num
 import re
 import sys
 
@@ -38,7 +37,7 @@ class TshCalculator:
 
     def tsh_convert_vietnamese_to_nonvietnamese(self, text):
         """
-        Convert from 'Tieng Viet co dau' thanh 'Tieng Viet khong dau'
+        Convert from 'Tiếng Việt có dấu' thanh 'Tieng Viet khong dau'
         text: input string to be converted
         Return: string converted
         """

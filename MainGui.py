@@ -104,10 +104,10 @@ class MainGui():
 
     def gui_draw_input(self, parentFrame):
 
-        lblName = Label(parentFrame, text="Nhập họ và tên : ", fg="black", font=FONT_SIZE)
+        lblName = Label(parentFrame, text="Full name : ", fg="black", font=FONT_SIZE)
         lblName.place(x= 100, y = 150)
 
-        lblBirthDay = Label(parentFrame, text="Nhập ngày sinh : ", fg="black", font=FONT_SIZE)
+        lblBirthDay = Label(parentFrame, text="BirthDay : ", fg="black", font=FONT_SIZE)
         lblBirthDay.place(x= 100, y = 200)
 
         # FullName
@@ -118,7 +118,7 @@ class MainGui():
         self.textBirthDay = Text(parentFrame, height = 1, width = 30, font=11)
         self.textBirthDay.place(x= 280, y = 200)
 
-        buttonCalculate = Button(parentFrame, text ="Tính toán", font=11, width=10, height = 2, command = self.callback_calculate)
+        buttonCalculate = Button(parentFrame, text ="Calculate", font=11, width=10, height = 2, command = self.callback_calculate)
         buttonCalculate.place(x= 350, y = 350)
 
     def callback_calculate(self):
